@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ===== Elemento raíz ===== -->
+<!ELEMENT etapa (nombre, distancia, fecha, tiempoGanador, velocidadMedia,
+                 desnivel, salida, meta, referencias, fotografias, videos,
+                 podcasts, hitos, puntos, clasificacionEtapa,
+                 clasificacionGeneral, clasificacionEquipos)>
+<!ATTLIST etapa
+    numero (1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21) #REQUIRED
+    tipo   (llana|montana|media-montana|contrarreloj-individual|contrarreloj-equipos) #REQUIRED>
+
+<!-- ===== Datos generales ===== -->
+<!ELEMENT nombre         (#PCDATA)>
+<!ELEMENT fecha          (#PCDATA)> 
+<!ELEMENT tiempoGanador  (#PCDATA)> 
+
+<!ELEMENT distancia      (#PCDATA)>
+<!ATTLIST distancia      unidades CDATA #FIXED "km">
+
+<!ELEMENT velocidadMedia (#PCDATA)>
+<!ATTLIST velocidadMedia unidades CDATA #FIXED "km/h">
+
+<!ELEMENT desnivel       (#PCDATA)>
+<!ATTLIST desnivel       unidades CDATA #FIXED "m">
+
+<!-- ===== Salida y meta ===== -->
+<!ELEMENT salida (lugar, coordenadas)>
+<!ELEMENT meta   (lugar, coordenadas)>
+<!ELEMENT lugar  (#PCDATA)>
+
+<!-- ===== Coordenadas ===== -->
+<!ELEMENT coordenadas (longitud, latitud, altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidades CDATA #FIXED "grados">
+<!ELEMENT latitud  (#PCDATA)>
+<!ATTLIST latitud  unidades CDATA #FIXED "grados">
+<!ELEMENT altitud  (#PCDATA)>
+<!ATTLIST altitud  unidades CDATA #FIXED "m">
+
+<!ELEMENT distanciaSalida (#PCDATA)>
+<!ATTLIST distanciaSalida unidades CDATA #FIXED "km">
+
+<!-- ===== Referencias (mínimo 3) ===== -->
+<!ELEMENT referencias (referencia, referencia, referencia+)>
+<!ELEMENT referencia  (#PCDATA)>
+<!ATTLIST referencia  url CDATA #REQUIRED>
+
+
+<!-- Fotografías: min 1 max 5 -->
+<!ELEMENT fotografias (fotografia, (fotografia, (fotografia, (fotografia, fotografia?)?)?)?)>
+<!ELEMENT fotografia  (#PCDATA)>
+<!ATTLIST fotografia  titulo CDATA #IMPLIED>
+
+<!-- Vídeos: min 1 max 3 -->
+<!ELEMENT videos (video, (video, video?)?)>
+<!ELEMENT video  (#PCDATA)>
+<!ATTLIST video  titulo CDATA #IMPLIED>
+
+<!-- Podcasts: min 1 max 3 -->
+<!ELEMENT podcasts (podcast, (podcast, podcast?)?)>
+<!ELEMENT podcast  (#PCDATA)>
+<!ATTLIST podcast  titulo CDATA #IMPLIED>
+
+<!-- ===== Hitos: puertos y sprints (0 o más) ===== -->
+<!ELEMENT hitos (puerto | sprint)*>
+
+<!ELEMENT puerto (nombre, coordenadas, distanciaSalida)>
+<!ATTLIST puerto
+    categoria   (primera|segunda|tercera|especial) #REQUIRED
+    bonificable (si|no) #REQUIRED>
+
+<!ELEMENT sprint (nombre, coordenadas, distanciaSalida)>
+<!ATTLIST sprint bonificable (si|no) #REQUIRED>
+
+
+<!-- ===== Puntos anónimos para planimetría y altimetría ===== -->
+<!ELEMENT puntos (punto*)>
+<!ELEMENT punto  (nombre?, coordenadas, distanciaSalida)>
+
+<!-- ===== Clasificaciones (3 puestos) ===== -->
+<!-- corredor es opcional: a veces no hay clasificados -->
+<!ELEMENT clasificacionEtapa   (clasificado, (clasificado, clasificado?)?)?>
+<!ELEMENT clasificacionGeneral (clasificado, (clasificado, clasificado?)?)?>
+<!ELEMENT clasificacionEquipos (clasificado, (clasificado, clasificado?)?)?>
+
+<!ELEMENT clasificado (corredor?, equipo, (tiempo | diferencia))>
+<!ATTLIST clasificado posicion (1|2|3) #REQUIRED>
+
+<!ELEMENT corredor   (#PCDATA)>
+<!ELEMENT equipo     (#PCDATA)>
+<!ELEMENT tiempo     (#PCDATA)> 
+<!ELEMENT diferencia (#PCDATA)> 

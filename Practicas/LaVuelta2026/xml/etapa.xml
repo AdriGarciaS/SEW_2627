@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+<!-- Etapa 16 de La Vuelta 2026: Cortegana a La Rábida-Palos de la Frontera -->
+<etapa numero="16" tipo="media-montana">
+    <nombre>Cortegana a La Rábida-Palos de la Frontera</nombre>
+    <distancia unidades="km">181.1</distancia>
+    <fecha>2026-09-08</fecha>
+    <tiempoGanador>PT3H56M33S</tiempoGanador>
+    <velocidadMedia unidades="km/h">45.94</velocidadMedia>
+    <desnivel unidades="m">1980</desnivel>
+
+    <salida>
+        <lugar>Cortegana</lugar>
+        <coordenadas>
+            <longitud unidades="grados">-6.802658</longitud>
+            <latitud unidades="grados">37.888042</latitud>
+            <altitud unidades="m">640</altitud>
+        </coordenadas>
+    </salida>
+
+    <meta>
+        <lugar>La Rábida. Palos de la Frontera</lugar>
+        <coordenadas>
+            <longitud unidades="grados">-6.922800</longitud>
+            <latitud unidades="grados">37.208900</latitud>
+            <altitud unidades="m">25</altitud>
+        </coordenadas>
+    </meta>
+
+    <referencias>
+        <referencia url="https://www.lavuelta.es/es/etapa-16">La Vuelta 2026 - Etapa 16 (web oficial)</referencia>
+        <referencia url="https://www.lavuelta.es/es/patrimonio/etapa-16/ciudad/cortegana">Cortegana, ciudad de salida (La Vuelta)</referencia>
+        <referencia url="https://www.lavuelta.es/es/patrimonio/etapa-16/ciudad/la-rabida-palos-de-la-frontera">La Rábida. Palos de la Frontera, ciudad de llegada (La Vuelta)</referencia>
+        <referencia url="https://es.wikipedia.org/wiki/Cortegana">Cortegana - Wikipedia</referencia>
+        <referencia url="https://es.wikipedia.org/wiki/Palos_de_la_Frontera">Palos de la Frontera - Wikipedia</referencia>
+    </referencias>
+
+    <fotografias>
+        <fotografia titulo="Salida en Cortegana">multimedia/foto1.jpg</fotografia>
+        <fotografia titulo="Llegada a La Rábida">multimedia/foto2.jpg</fotografia>
+        <fotografia titulo="Pelotón en la etapa">multimedia/foto3.jpg</fotografia>
+    </fotografias>
+
+    <videos>
+        <video titulo="Resumen de la etapa 16">multimedia/video1.mp4</video>
+    </videos>
+
+    <podcasts>
+        <podcast titulo="Podcast de la etapa 16">multimedia/podcast1.mp3</podcast>
+    </podcasts>
+
+    <hitos>
+        <sprint bonificable="no">
+            <nombre>Villarrasa</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.607600</longitud>
+                <latitud unidades="grados">37.389900</latitud>
+                <altitud unidades="m">70</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">114.5</distanciaSalida>
+        </sprint>
+    </hitos>
+
+    <puntos>
+        <punto>
+            <nombre>Almonaster la Real</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.786600</longitud>
+                <latitud unidades="grados">37.872200</latitud>
+                <altitud unidades="m">613</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">2</distanciaSalida>
+        </punto>
+        <punto>
+            <nombre>Castaño del Robledo</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.701100</longitud>
+                <latitud unidades="grados">37.900600</latitud>
+                <altitud unidades="m">740</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">17.7</distanciaSalida>
+        </punto>
+        <punto>
+            <nombre>Fuenteheridos</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.662000</longitud>
+                <latitud unidades="grados">37.905000</latitud>
+                <altitud unidades="m">717</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">21.9</distanciaSalida>
+        </punto>
+        <punto>
+            <nombre>Aracena</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.561000</longitud>
+                <latitud unidades="grados">37.893000</latitud>
+                <altitud unidades="m">682</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">31.4</distanciaSalida>
+        </punto>
+        <punto>
+            <nombre>Campofrío</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.572000</longitud>
+                <latitud unidades="grados">37.769000</latitud>
+                <altitud unidades="m">530</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">52.7</distanciaSalida>
+        </punto>
+        <punto>
+            <nombre>Minas de Riotinto</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.595000</longitud>
+                <latitud unidades="grados">37.693000</latitud>
+                <altitud unidades="m">420</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">63.1</distanciaSalida>
+        </punto>
+        <punto>
+            <nombre>La Palma del Condado</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.553000</longitud>
+                <latitud unidades="grados">37.386000</latitud>
+                <altitud unidades="m">91</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">111</distanciaSalida>
+        </punto>
+        <punto>
+            <nombre>Lucena del Puerto</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.729000</longitud>
+                <latitud unidades="grados">37.305000</latitud>
+                <altitud unidades="m">60</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">136</distanciaSalida>
+        </punto>
+        <punto>
+            <nombre>Moguer</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.839000</longitud>
+                <latitud unidades="grados">37.275000</latitud>
+                <altitud unidades="m">50</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">147.2</distanciaSalida>
+        </punto>
+        <punto>
+            <nombre>Palos de la Frontera</nombre>
+            <coordenadas>
+                <longitud unidades="grados">-6.893000</longitud>
+                <latitud unidades="grados">37.229000</latitud>
+                <altitud unidades="m">18</altitud>
+            </coordenadas>
+            <distanciaSalida unidades="km">155.4</distanciaSalida>
+        </punto>
+    </puntos>
+
+    <clasificacionEtapa>
+        <clasificado posicion="1">
+            <corredor>Matthew Brennan</corredor>
+            <equipo>Visma-Lease a Bike</equipo>
+            <tiempo>PT3H56M33S</tiempo>
+        </clasificado>
+        <clasificado posicion="2">
+            <corredor>Bryan Coquard</corredor>
+            <equipo>Cofidis</equipo>
+            <diferencia>PT0S</diferencia>
+        </clasificado>
+        <clasificado posicion="3">
+            <corredor>Vito Braet</corredor>
+            <equipo>Lotto-Intermarché</equipo>
+            <diferencia>PT0S</diferencia>
+        </clasificado>
+    </clasificacionEtapa>
+
+    <clasificacionGeneral>
+        <clasificado posicion="1">
+            <corredor>Enric Mas</corredor>
+            <equipo>Movistar Team</equipo>
+            <tiempo>PT56H2M29S</tiempo>
+        </clasificado>
+        <clasificado posicion="2">
+            <corredor>Felix Gall</corredor>
+            <equipo>Decathlon CMA CGM</equipo>
+            <diferencia>PT2M6S</diferencia>
+        </clasificado>
+        <clasificado posicion="3">
+            <corredor>Primož Roglič</corredor>
+            <equipo>Red Bull-Bora-Hansgrohe</equipo>
+            <diferencia>PT2M10S</diferencia>
+        </clasificado>
+    </clasificacionGeneral>
+
+    <clasificacionEquipos>
+        <clasificado posicion="1">
+            <equipo>Decathlon CMA CGM</equipo>
+            <tiempo>PT168H27M56S</tiempo>
+        </clasificado>
+        <clasificado posicion="2">
+            <equipo>XDS Astana Team</equipo>
+            <diferencia>PT57M32S</diferencia>
+        </clasificado>
+        <clasificado posicion="3">
+            <equipo>Bahrain Victorious</equipo>
+            <diferencia>PT1H11M15S</diferencia>
+        </clasificado>
+    </clasificacionEquipos>
+</etapa>
