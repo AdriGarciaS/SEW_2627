@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Adriana Garcia Suarez" />
+    <meta name="description" content="Documento de juegos del proyecto LaVuelta2026" />
+   
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <header>
+        <h1>La Vuelta 2026</h1>
+        <nav>
+            <a href="index.html" title="Página de inicio de La Vuelta 2026">Inicio</a>
+            <a href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
+            <a href="equipo.html" title="Información sobre el equipo">Equipo</a>
+            <a href="etapa.html" title="Información sobre la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Información meteorológica">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones de La Vuelta 2026">Clasificaciones</a>
+            <a href="juegos.html" title="Juegos sobre La Vuelta 2026">Juegos</a>
+            <a href="ayuda.html" title="Ayuda sobre el uso del proyecto">Ayuda</a>
+        </nav>
+    </header>
+
+    <h2>Juegos</h2>  
+    
+    <h3>¿Conoces la etapa?</h3>
+    <p>Pon a prueba lo que sabes sobre la etapa 16 de La Vuelta 2026 con este juego de 10 preguntas. 
+        Todas las respuestas se encuentran en la página de <a href="etapa.html" title="Información sobre la etapa">Etapa</a>, 
+        así que consúltala antes de empezar. 
+        Lee cada pregunta con atención y elige o escribe la respuesta que creas correcta.
+    </p>
+
+    <form>
+        <fieldset>
+            <legend>Etapa 16: Cortegana a La Rábida-Palos de la Frontera</legend>
+            <p>
+                <label for="numeroEtapa">1. ¿Qué número de etapa de La Vuelta 2026 se describe en la información de la etapa?</label>
+                <input type="number" id="numeroEtapa" min="1" max="21" />
+            </p>
+
+            <p>
+                <label for="fechaEtapa">2. ¿En qué fecha se disputa la etapa?</label>
+                <input type="date" id="fechaEtapa" min="2026-08-22" max="2026-09-13" required />
+            </p>
+
+            <p>
+                <label for="salidaEtapa">3. ¿Cuál es la ciudad de salida de la etapa?</label>
+                <select id="salidaEtapa" required>
+                    <option value="">Seleccione una opción</option>
+                    <option>Monaco</option>
+                    <option>Andorra la Vella</option>
+                    <option>Cartagena</option>
+                    <option>Cortegana</option>
+                    <option>Jaén</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="llegadaEtapa">4. ¿Cuál es la ciudad de llegada de la etapa?</label>
+                <select id="llegadaEtapa" required>
+                    <option value="">Seleccione una opción</option>
+                    <option>Manosque</option>
+                    <option>Calar Alto</option>
+                    <option>La Rábida. Palos de la Frontera</option>
+                    <option>Córdoba</option>
+                    <option>Granada</option>
+                </select>
+            </p>
+
+            <p>
+                5. ¿De qué tipo es la etapa?
+                <input type="radio" id="tipoLlana" name="tipoEtapa" required />
+                <label for="tipoLlana">Llana</label>
+                <input type="radio" id="tipoMediaMontana" name="tipoEtapa" />
+                <label for="tipoMediaMontana">Media montaña</label>
+                <input type="radio" id="tipoMontana" name="tipoEtapa" />
+                <label for="tipoMontana">Montaña</label>
+                <input type="radio" id="tipoCri" name="tipoEtapa" />
+                <label for="tipoCri">Contrarreloj individual</label>
+                <input type="radio" id="tipoCre" name="tipoEtapa" />
+                <label for="tipoCre">Contrarreloj por equipos</label>
+            </p>
+
+            <p>
+                6. ¿Qué hitos están presentes en la etapa? (puedes marcar varios)
+                <input type="checkbox" id="hitoPuerto" />
+                <label for="hitoPuerto">Puerto de montaña</label>
+                <input type="checkbox" id="hitoPuertoEspecial" />
+                <label for="hitoPuertoEspecial">Puerto categoría especial</label>
+                <input type="checkbox" id="hitoSprintIntermedio" />
+                <label for="hitoSprintIntermedio">Sprint intermedio</label>
+                <input type="checkbox" id="hitoSprintBonificado" />
+                <label for="hitoSprintBonificado">Sprint bonificado</label>
+                <input type="checkbox" id="hitoNinguno" />
+                <label for="hitoNinguno">Sin hitos</label>
+            </p>
+
+            <p>
+                <label for="durezaEtapa">7. Valora la dureza de la etapa (1 = muy fácil, 10 = muy dura):</label>
+                <input type="range" id="durezaEtapa" min="1" max="10" step="1" />
+            </p>
+
+            <p>
+                <label for="longitudEtapa">8. ¿Cuál es la longitud de la etapa en kilómetros?</label>
+                <input type="number" id="longitudEtapa" min="0" step="0.1" required />
+            </p>
+
+            <p>
+                <label for="desnivelEtapa">9. ¿Cuál es el desnivel acumulado de la etapa en metros?</label>
+                <input type="number" id="desnivelEtapa" min="0" step="1" required />
+            </p>
+
+            <p>
+                <label for="descripcionEtapa">10. Describe brevemente la etapa:</label>
+                <textarea id="descripcionEtapa" rows="5" cols="50" maxlength="500" placeholder="Recorrido, dificultad, paisaje..."></textarea>
+            </p>
+
+            <p>
+                <label for="nombreParticipante">Nombre del participante:</label>
+                <input type="text" id="nombreParticipante" maxlength="50" placeholder="Nombre y apellidos" required />
+            </p>
+        </fieldset>
+
+        <p>
+            <button type="submit">Enviar respuestas</button>
+        </p>
+        
+    </form>
+    
+</body>
+</html>
