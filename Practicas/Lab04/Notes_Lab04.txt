@@ -1,0 +1,10 @@
+SEW : Lab04 
+
+HTML (estatico, sin css)
+
+no presocuparse por el campo info en los validadores 
+hasta q cambiemos el lorem ipsum dara fallos el idioma del html 
+
+en el validador poner "source" activado y asi vemos en el html dodne estan los warnings 
+
+todos los elementos q se abren y cierran en el mismo tag, tiene q dar ese info 

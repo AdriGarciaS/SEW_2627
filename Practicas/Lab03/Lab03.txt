@@ -1,0 +1,14 @@
+como hacer sew 
+abrir visual studio comuity 
+abrir ventana xml (editar - schema - crear schema)
+boton generar xsd 
+guardar en carpeta de xml
+- etapaschema.xsd 
+abrir con visual studio 
+en el generado automaticamente sale todo como pcdata string 
+cambiar los tipos de datos y las caractreisticas como min o max 
+generar informeXMLschema con los cambios (tres apartados )
+	- revisar codificacion que este en utf8
+	- tipos de datos : longitud (string -> float positivo ),tiempos 
+	(string -> tipo time o duration), diff timepo (string -> duartion )
+	
