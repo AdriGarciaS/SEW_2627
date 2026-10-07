@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1600" height="900" viewBox="0 0 1600 900">
+    <title>Altimetría - Etapa 16: Cortegana a La Rábida-Palos de la Frontera</title>
+    <desc>Perfil altimétrico de la etapa: altitud (m) frente a distancia desde la salida (km)</desc>
+    <rect x="0" y="0" width="1600" height="900" fill="white" />
+    <text x="800.0" y="30.0" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle" font-weight="bold">Altimetría - Etapa 16: Cortegana a La Rábida-Palos de la Frontera</text>
+    <line x1="80.0" y1="770.0" x2="1560.0" y2="770.0" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="72.0" y="774.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">0 m</text>
+    <line x1="80.0" y1="728.8" x2="1560.0" y2="728.8" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="72.0" y="732.8" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">100 m</text>
+    <line x1="80.0" y1="687.5" x2="1560.0" y2="687.5" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="72.0" y="691.5" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">200 m</text>
+    <line x1="80.0" y1="646.2" x2="1560.0" y2="646.2" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="72.0" y="650.2" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">300 m</text>
+    <line x1="80.0" y1="605.0" x2="1560.0" y2="605.0" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="72.0" y="609.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">400 m</text>
+    <line x1="80.0" y1="563.8" x2="1560.0" y2="563.8" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="72.0" y="567.8" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">500 m</text>
+    <line x1="80.0" y1="522.5" x2="1560.0" y2="522.5" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="72.0" y="526.5" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">600 m</text>
+    <line x1="80.0" y1="481.2" x2="1560.0" y2="481.2" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="72.0" y="485.2" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">700 m</text>
+    <line x1="80.0" y1="440.0" x2="1560.0" y2="440.0" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="72.0" y="444.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">800 m</text>
+    <line x1="80.0" y1="770.0" x2="80.0" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="80.0" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">0</text>
+    <line x1="161.7" y1="770.0" x2="161.7" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="161.7" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">10</text>
+    <line x1="243.4" y1="770.0" x2="243.4" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="243.4" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">20</text>
+    <line x1="325.2" y1="770.0" x2="325.2" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="325.2" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">30</text>
+    <line x1="406.9" y1="770.0" x2="406.9" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="406.9" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">40</text>
+    <line x1="488.6" y1="770.0" x2="488.6" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="488.6" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">50</text>
+    <line x1="570.3" y1="770.0" x2="570.3" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="570.3" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">60</text>
+    <line x1="652.1" y1="770.0" x2="652.1" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="652.1" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">70</text>
+    <line x1="733.8" y1="770.0" x2="733.8" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="733.8" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">80</text>
+    <line x1="815.5" y1="770.0" x2="815.5" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="815.5" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">90</text>
+    <line x1="897.2" y1="770.0" x2="897.2" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="897.2" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">100</text>
+    <line x1="979.0" y1="770.0" x2="979.0" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="979.0" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">110</text>
+    <line x1="1060.7" y1="770.0" x2="1060.7" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="1060.7" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">120</text>
+    <line x1="1142.4" y1="770.0" x2="1142.4" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="1142.4" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">130</text>
+    <line x1="1224.1" y1="770.0" x2="1224.1" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="1224.1" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">140</text>
+    <line x1="1305.8" y1="770.0" x2="1305.8" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="1305.8" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">150</text>
+    <line x1="1387.6" y1="770.0" x2="1387.6" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="1387.6" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">160</text>
+    <line x1="1469.3" y1="770.0" x2="1469.3" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="1469.3" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">170</text>
+    <line x1="1551.0" y1="770.0" x2="1551.0" y2="778.0" stroke="black" stroke-width="1" />
+    <text x="1551.0" y="794.0" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">180</text>
+    <text x="800.0" y="820.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle">Distancia desde la salida (km)</text>
+    <line x1="80.0" y1="770.0" x2="1560.0" y2="770.0" stroke="black" stroke-width="2" />
+    <line x1="80.0" y1="770.0" x2="80.0" y2="440.0" stroke="black" stroke-width="2" />
+    <polyline points="80.0,770.0 80.0,506.0 96.3,517.1 154.4,506.0 169.9,501.9 199.3,506.0 224.6,464.8 259.0,474.2 272.9,481.2 336.6,485.4 364.4,514.2 510.7,551.4 570.3,576.1 595.7,596.8 603.8,605.0 634.9,625.6 684.7,633.9 746.0,666.9 987.1,732.9 1015.7,741.1 1073.7,753.5 1097.4,745.2 1132.6,732.9 1191.4,745.2 1205.3,745.2 1262.5,745.2 1283.0,749.4 1350.0,762.6 1373.7,759.7 1404.7,757.6 1462.7,761.8 1551.0,761.8 1560.0,759.7 1560.0,770.0 80.0,770.0" fill="#f4a460" stroke="#8b4513" stroke-width="3" stroke-linejoin="round" />
+    <line x1="80.0" y1="435.0" x2="80.0" y2="506.0" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="80.0" cy="506.0" r="5" fill="red" stroke="black" stroke-width="1" />
+    <text x="84.0" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 84.0 430.0)">Cortegana - km 0.0 (640 m)</text>
+    <line x1="96.3" y1="435.0" x2="96.3" y2="517.1" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="96.3" cy="517.1" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="100.3" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 100.3 430.0)">Almonaster la Real - km 2.0 (613 m)</text>
+    <line x1="154.4" y1="435.0" x2="154.4" y2="506.0" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="154.4" cy="506.0" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="158.4" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 158.4 430.0)">Cruce izquierda dirección Jabugo - km 9.1 (640 m)</text>
+    <line x1="169.9" y1="435.0" x2="169.9" y2="501.9" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="169.9" cy="501.9" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="173.9" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 173.9 430.0)">Aguafría - km 11.0 (650 m)</text>
+    <line x1="199.3" y1="435.0" x2="199.3" y2="506.0" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="199.3" cy="506.0" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="203.3" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 203.3 430.0)">Cruce derecha dirección Castaño del Robledo - km 14.6 (640 m)</text>
+    <line x1="224.6" y1="435.0" x2="224.6" y2="464.8" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="224.6" cy="464.8" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="228.6" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 228.6 430.0)">Castaño del Robledo - km 17.7 (740 m)</text>
+    <line x1="259.0" y1="435.0" x2="259.0" y2="474.2" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="259.0" cy="474.2" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="263.0" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 263.0 430.0)">Fuenteheridos - km 21.9 (717 m)</text>
+    <line x1="272.9" y1="435.0" x2="272.9" y2="481.2" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="272.9" cy="481.2" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="276.9" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 276.9 430.0)">Cruce derecha dirección Aracena - km 23.6 (700 m)</text>
+    <line x1="336.6" y1="435.0" x2="336.6" y2="485.4" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="336.6" cy="485.4" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="340.6" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 340.6 430.0)">Aracena, rotonda dirección Alájar - km 31.4 (690 m)</text>
+    <line x1="364.4" y1="435.0" x2="364.4" y2="514.2" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="364.4" cy="514.2" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="368.4" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 368.4 430.0)">Rotonda izquierda dirección Campofrío - km 34.8 (620 m)</text>
+    <line x1="510.7" y1="435.0" x2="510.7" y2="551.4" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="510.7" cy="551.4" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="514.7" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 514.7 430.0)">Campofrío - km 52.7 (530 m)</text>
+    <line x1="570.3" y1="435.0" x2="570.3" y2="576.1" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="570.3" cy="576.1" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="574.3" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 574.3 430.0)">La Dehesa - km 60.0 (470 m)</text>
+    <line x1="595.7" y1="435.0" x2="595.7" y2="596.8" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="595.7" cy="596.8" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="599.7" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 599.7 430.0)">Minas de Riotinto - km 63.1 (420 m)</text>
+    <line x1="608.7" y1="435.0" x2="603.8" y2="605.0" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="603.8" cy="605.0" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="612.7" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 612.7 430.0)">Cruce derecha dirección Las Delgadas - km 64.1 (400 m)</text>
+    <line x1="634.9" y1="435.0" x2="634.9" y2="625.6" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="634.9" cy="625.6" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="638.9" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 638.9 430.0)">Cruce derecha dirección Marigenta - km 67.9 (350 m)</text>
+    <line x1="684.7" y1="435.0" x2="684.7" y2="633.9" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="684.7" cy="633.9" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="688.7" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 688.7 430.0)">Cruce izquierda dirección Berrocal - km 74.0 (330 m)</text>
+    <line x1="746.0" y1="435.0" x2="746.0" y2="666.9" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="746.0" cy="666.9" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="750.0" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 750.0 430.0)">Cruce derecha dirección La Palma del Condado - km 81.5 (250 m)</text>
+    <line x1="987.1" y1="435.0" x2="987.1" y2="732.9" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="987.1" cy="732.9" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="991.1" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 991.1 430.0)">La Palma del Condado - km 111.0 (90 m)</text>
+    <line x1="1015.7" y1="435.0" x2="1015.7" y2="741.1" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1015.7" cy="741.1" r="5" fill="blue" stroke="black" stroke-width="1" />
+    <text x="1019.7" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1019.7 430.0)">Villarrasa - km 114.5 (70 m)</text>
+    <line x1="1073.7" y1="435.0" x2="1073.7" y2="753.5" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1073.7" cy="753.5" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1077.7" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1077.7 430.0)">Rotonda izquierda dirección Bonares - km 121.6 (40 m)</text>
+    <line x1="1097.4" y1="435.0" x2="1097.4" y2="745.2" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1097.4" cy="745.2" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1101.4" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1101.4 430.0)">Cruce recto dirección Bonares - km 124.5 (60 m)</text>
+    <line x1="1132.6" y1="435.0" x2="1132.6" y2="732.9" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1132.6" cy="732.9" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1136.6" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1136.6 430.0)">Cruce derecha dirección Lucena del Puerto - km 128.8 (90 m)</text>
+    <line x1="1191.4" y1="435.0" x2="1191.4" y2="745.2" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1191.4" cy="745.2" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1195.4" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1195.4 430.0)">Lucena del Puerto - km 136.0 (60 m)</text>
+    <line x1="1205.3" y1="435.0" x2="1205.3" y2="745.2" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1205.3" cy="745.2" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1209.3" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1209.3 430.0)">Incorporación A-486 - km 137.7 (60 m)</text>
+    <line x1="1262.5" y1="435.0" x2="1262.5" y2="745.2" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1262.5" cy="745.2" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1266.5" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1266.5 430.0)">Cruce izquierda dirección Moguer - km 144.7 (60 m)</text>
+    <line x1="1283.0" y1="435.0" x2="1283.0" y2="749.4" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1283.0" cy="749.4" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1287.0" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1287.0 430.0)">Moguer - km 147.2 (50 m)</text>
+    <line x1="1350.0" y1="435.0" x2="1350.0" y2="762.6" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1350.0" cy="762.6" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1354.0" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1354.0 430.0)">Palos de la Frontera - km 155.4 (18 m)</text>
+    <line x1="1373.7" y1="435.0" x2="1373.7" y2="759.7" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1373.7" cy="759.7" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1377.7" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1377.7 430.0)">Rotonda derecha dirección Mazagón - km 158.3 (25 m)</text>
+    <line x1="1404.7" y1="435.0" x2="1404.7" y2="757.6" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1404.7" cy="757.6" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1408.7" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1408.7 430.0)">Incorporación A-494 - km 162.1 (30 m)</text>
+    <line x1="1462.7" y1="435.0" x2="1462.7" y2="761.8" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1462.7" cy="761.8" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1466.7" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1466.7 430.0)">Rotonda derecha dirección Huelva - km 169.2 (20 m)</text>
+    <line x1="1551.0" y1="435.0" x2="1551.0" y2="761.8" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1551.0" cy="761.8" r="5" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="1555.0" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1555.0 430.0)">Rotonda derecha dirección Palos de la Frontera - km 180.0 (20 m)</text>
+    <line x1="1564.0" y1="435.0" x2="1560.0" y2="759.7" stroke="#666666" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1560.0" cy="759.7" r="5" fill="red" stroke="black" stroke-width="1" />
+    <text x="1568.0" y="430.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" transform="rotate(-90 1568.0 430.0)">La Rábida. Palos de la Frontera - km 181.1 (25 m)</text>
+    <circle cx="80.0" cy="876.0" r="6" fill="red" stroke="black" stroke-width="1" />
+    <text x="92.0" y="880.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start">Salida / Meta</text>
+    <circle cx="280.0" cy="876.0" r="6" fill="green" stroke="black" stroke-width="1" />
+    <text x="292.0" y="880.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start">Puerto de montaña</text>
+    <circle cx="480.0" cy="876.0" r="6" fill="blue" stroke="black" stroke-width="1" />
+    <text x="492.0" y="880.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start">Sprint intermedio</text>
+    <circle cx="680.0" cy="876.0" r="6" fill="yellow" stroke="black" stroke-width="1" />
+    <text x="692.0" y="880.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start">Punto de paso</text>
+</svg>

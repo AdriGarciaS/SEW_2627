@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adrig\\Desktop\\SEW_2627\\Practicas\\LaVuelta2026\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrig\\Desktop\\SEW_2627\\Practicas\\LaVuelta2026\\xml\\etapa.xsd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:xml\\etapa.xsd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrig\\Desktop\\SEW_2627\\Practicas\\LaVuelta2026\\xml\\etapa.dtd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:xml\\etapa.dtd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrig\\Desktop\\SEW_2627\\Practicas\\LaVuelta2026\\xml\\etapa.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:xml\\etapa.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "etapa.xsd",
+              "DocumentMoniker": "C:\\Users\\adrig\\Desktop\\SEW_2627\\Practicas\\LaVuelta2026\\xml\\etapa.xsd",
+              "RelativeDocumentMoniker": "xml\\etapa.xsd",
+              "ToolTip": "C:\\Users\\adrig\\Desktop\\SEW_2627\\Practicas\\LaVuelta2026\\xml\\etapa.xsd",
+              "RelativeToolTip": "xml\\etapa.xsd",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-09-28T09:33:28.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "etapa.xml",
+              "DocumentMoniker": "C:\\Users\\adrig\\Desktop\\SEW_2627\\Practicas\\LaVuelta2026\\xml\\etapa.xml",
+              "RelativeDocumentMoniker": "xml\\etapa.xml",
+              "ToolTip": "C:\\Users\\adrig\\Desktop\\SEW_2627\\Practicas\\LaVuelta2026\\xml\\etapa.xml",
+              "RelativeToolTip": "xml\\etapa.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-09-28T09:31:26.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "etapa.dtd",
+              "DocumentMoniker": "C:\\Users\\adrig\\Desktop\\SEW_2627\\Practicas\\LaVuelta2026\\xml\\etapa.dtd",
+              "RelativeDocumentMoniker": "xml\\etapa.dtd",
+              "ToolTip": "C:\\Users\\adrig\\Desktop\\SEW_2627\\Practicas\\LaVuelta2026\\xml\\etapa.dtd",
+              "RelativeToolTip": "xml\\etapa.dtd",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003572|",
+              "WhenOpened": "2026-09-28T09:31:21.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
