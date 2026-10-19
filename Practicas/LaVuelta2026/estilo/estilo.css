@@ -4,10 +4,59 @@
 /* ***************************************/
 /*    DATOS ESTUDIANTE                   */
 /* --------------------------------------*/
-/*  Nombre y Apellidos:                  */
-/*  Correo electrónico (uniovi):         */
-/*  Grupo de laboratorio:                */
+/*  Nombre y Apellidos: Adriana Garcia Suarez */
+/*  Correo electrónico (uniovi): UO300042@uniovi.es */
+/*  Grupo de laboratorio: L-6               */
 /* ***************************************/
 
+/* Gama cromática
+   Color principal: #4B2A7B
+       o Contraste de 10.96:1 con color blanco
+       o Contraste de 8.64:1 con color secundario
+   Color secundario: #E9E1F5
+       o Contraste de 16.55:1 con color negro
+       o Contraste de 8.64:1 con color principal
+   Color blanco: #FFFFFF
+       o Contraste de 21:1 con color negro
+   Color negro: #000000
+       o Contraste de 21:1 con color blanco
+*/
 
+/* Especificidad: 010 */
+:root {
+    --color-principal: #4B2A7B;
+    --color-secundario: #E9E1F5;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
 
+/* Especificidad: 001 */
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/* Especificidad: 001 */
+header, footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 002 */
+header a, footer a {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 001 */
+h1, h2, h3, h4, h5, h6 {
+    background-color: var(--color-blanco);
+    color: var(--color-principal);
+}
+
+/* Especificidad: 002 */
+header h1 {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}

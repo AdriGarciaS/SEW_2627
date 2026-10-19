@@ -14,6 +14,7 @@
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" />
 </head>
 
 <body>
@@ -31,71 +32,98 @@
         </nav>
     </header>
 
-    <h2>Paul Double</h2>
+    <main>
+        <h2>Paul Double</h2>
 
-    <section>
-        <h3>Datos personales</h3>
-        <ul>
-            <li>Nombre completo: Paul Double</li>
-            <li>Fecha de nacimiento: 25/06/1996</li>
-            <li>País de nacimiento: Reino Unido</li>
-            <li>Equipo: Team Jayco AlUla</li>
-            <li>Dorsal: 153</li>
-        </ul>
-        <img src="multimedia/paul-double.png" 
-            alt="Fotografía del ciclista Paul Double con el maillot del Team Jayco AlUla" width="300" height="455" />
-    </section>
+        <section>
+            <h3>Datos personales</h3>
+            <ul>
+                <li>Nombre completo: Paul Double</li>
+                <li>Fecha de nacimiento: 25/06/1996</li>
+                <li>País de nacimiento: Reino Unido</li>
+                <li>Equipo: Team Jayco AlUla</li>
+                <li>Dorsal: 153</li>
+            </ul>
+            <picture>
+                <source srcset="multimedia/paul-double-movil.png" media="(max-width: 768px)" width="140" height="212" />
+                <source srcset="multimedia/paul-double-tablet.png" media="(max-width: 1024px)" width="225" height="341" />
+                <img src="multimedia/paul-double.png"
+                    alt="Fotografía del ciclista Paul Double con el maillot del Team Jayco AlUla" width="300" height="455" />
+            </picture>
+        </section>
 
-    <section>
-        <h3>Datos equipos</h3>
-        <ol>
-            <li>Team Jayco AlUla</li>
-            <li>Team Polti Kometa</li>
-            <li>Human Powered Health</li>
-            <li>Mg.K Vis-Color for Peace-VPM</li>
-            <li>Mg.K Vis VPM</li>
-            <li>Holdsworth Zappi Team</li>
-            <li>Zappi's Racing Team</li>
-        </ol>
-    </section>
+        <section>
+            <h3>Datos equipos</h3>
+            <ol>
+                <li>Team Jayco AlUla</li>
+                <li>Team Polti Kometa</li>
+                <li>Human Powered Health</li>
+                <li>Mg.K Vis-Color for Peace-VPM</li>
+                <li>Mg.K Vis VPM</li>
+                <li>Holdsworth Zappi Team</li>
+                <li>Zappi's Racing Team</li>
+            </ol>
+        </section>
 
-    <section>
-        <h3>Temporada 2025</h3>
-        <table>
-            <tr>
-                <th>Nombre del dato</th>
-                <th>Resultado</th>
-            </tr>
-            <tr>
-                <td>Equipo</td>
-                <td>Team Jayco AlUla</td>
-            </tr>
-            <tr>
-                <td>Carreras disputadas (con resultado en el top 25)</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>Victorias de etapa</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>Victorias en la clasificación general</td>
-                <td>2 </td>
-            </tr>
-            <tr>
-                <td>Victorias totales</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>Mejor puesto en una gran vuelta</td>
-                <td>13º </td>
-            </tr>
-            <tr>
-                <td>Mejor puesto en la clasificación general</td>
-                <td>13º</td>
-            </tr>
-        </table>
-    </section>
-    
+        <section>
+            <h3>Temporada 2025</h3>
+            <table>
+                <tr>
+                    <th>Nombre del dato</th>
+                    <th>Resultado</th>
+                </tr>
+                <tr>
+                    <td>Equipo</td>
+                    <td>Team Jayco AlUla</td>
+                </tr>
+                <tr>
+                    <td>Carreras disputadas (con resultado en el top 25)</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Victorias de etapa</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Victorias en la clasificación general</td>
+                    <td>2 </td>
+                </tr>
+                <tr>
+                    <td>Victorias totales</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Mejor puesto en una gran vuelta</td>
+                    <td>13º </td>
+                </tr>
+                <tr>
+                    <td>Mejor puesto en la clasificación general</td>
+                    <td>13º</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h3>Multimedia</h3>
+            <p>Equipo <a href="https://www.lavuelta.es/es/equipo/JAY/team-jayco-alula" title="Página del Team Jayco AlUla en La Vuelta 2026">Team Jayco AlUla</a> en la Vuelta Ciclista a España 2026.</p>
+        
+            <video controls poster="multimedia/poster.png">
+                <source src="multimedia/team-jayco-alula.webm" type="video/webm" />
+                <source src="multimedia/team-jayco-alula.mp4" type="video/mp4" />
+            </video>
+
+            <audio controls>
+                <source src="multimedia/team-jayco-alula.mp3" type="audio/mpeg" />
+                <source src="multimedia/team-jayco-alula.wav" type="audio/wav" />
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>Adriana Garcia Suarez</p>
+        <address>
+            <a href="mailto:UO300042@uniovi.es">UO300042@uniovi.es</a>
+        </address>
+    </footer>
 </body>
 </html>
