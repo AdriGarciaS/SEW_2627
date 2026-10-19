@@ -4,10 +4,51 @@
 /* ***************************************/
 /*    DATOS ESTUDIANTE                   */
 /* --------------------------------------*/
-/*  Nombre y Apellidos:                  */
-/*  Correo electrónico (uniovi):         */
-/*  Grupo de laboratorio:                */
+/*  Nombre y Apellidos: Adriana Garcia Suarez */
+/*  Correo electrónico (uniovi): UO300042@uniovi.es */
+/*  Grupo de laboratorio: L-6            */
 /* ***************************************/
 
+/* Especificidad: 002 */
+section:has(picture) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+/* Especificidad: 003 */
+section:has(picture) > h3 {
+    flex-basis: 100%;
+}
 
+/* Especificidad: 003 */
+section:has(picture) > picture {
+    order: 1;
+}
+
+/* Especificidad: 003 */
+section:has(picture) > ul {
+    order: 2;
+    list-style: none;
+}
+
+/* Especificidad: 002 */
+section:has(video) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Especificidad: 003 */
+section:has(article + article) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+/* Especificidad: 004 */
+section:has(article + article) > h3 {
+    grid-column: 1 / -1;
+}

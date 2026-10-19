@@ -11,15 +11,15 @@
 
 /* Gama cromática
    Color principal: #4B2A7B
-       o Contraste de 10.96:1 con color blanco
-       o Contraste de 8.64:1 con color secundario
+        Contraste de 10.96:1 con color blanco
+        Contraste de 8.64:1 con color secundario
    Color secundario: #E9E1F5
-       o Contraste de 16.55:1 con color negro
-       o Contraste de 8.64:1 con color principal
+        Contraste de 16.55:1 con color negro
+        Contraste de 8.64:1 con color principal
    Color blanco: #FFFFFF
-       o Contraste de 21:1 con color negro
+        Contraste de 21:1 con color negro
    Color negro: #000000
-       o Contraste de 21:1 con color blanco
+        Contraste de 21:1 con color blanco
 */
 
 /* Especificidad: 010 */
@@ -43,10 +43,34 @@ header, footer {
     color: var(--color-blanco);
 }
 
-/* Especificidad: 002 */
+/* Especificidad: 002, 002 */
 header a, footer a {
-    background-color: var(--color-principal);
-    color: var(--color-blanco);
+    color: var(--color-blanco); /* ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
+    text-decoration: none;
+}
+
+/* Especificidad: 012 */
+nav a[aria-current="page"] {
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    font-weight: bold;
+}
+
+/* Especificidad: 003 */
+header + nav > ol {
+    font-size: 0.8em;
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Especificidad: 004 */
+header + nav > ol > li {
+    display: inline;
+}
+
+/* Especificidad: 014 */
+header + nav > ol > li:last-child {
+    font-weight: bold;
 }
 
 /* Especificidad: 001 */
@@ -59,4 +83,14 @@ h1, h2, h3, h4, h5, h6 {
 header h1 {
     background-color: var(--color-principal);
     color: var(--color-blanco);
+}
+
+/* Especificidad: 014, 014 */
+section:has(picture) > ul > li:first-child, section:has(picture) > ul > li:nth-child(3) {
+    font-size: 1.5em;
+}
+
+/* Especificidad: 014, 014 */
+section:has(picture) > ul > li:first-child, section:has(picture) > ul > li:nth-child(4) {
+    font-weight: bold;
 }
