@@ -37,7 +37,7 @@ body {
     color: var(--color-negro);
 }
 
-/* Especificidad: 001 */
+/* Especificidad: 001, 001 */
 header, footer {
     background-color: var(--color-principal);
     color: var(--color-blanco);
@@ -73,16 +73,9 @@ header + nav > ol > li:last-child {
     font-weight: bold;
 }
 
-/* Especificidad: 001 */
-h1, h2, h3, h4, h5, h6 {
-    background-color: var(--color-blanco);
-    color: var(--color-principal);
-}
-
-/* Especificidad: 002 */
-header h1 {
-    background-color: var(--color-principal);
-    color: var(--color-blanco);
+/* Especificidad: 001, 001, 001, 001, 001 */
+h2, h3, h4, h5, h6 {
+    color: var(--color-principal); /* ADVERTENCIA: color de fondo heredado de body --color-blanco */
 }
 
 /* Especificidad: 014, 014 */
