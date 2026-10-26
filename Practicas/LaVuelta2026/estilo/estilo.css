@@ -94,3 +94,25 @@ section:has(picture) > ul > li:first-child, section:has(picture) > ul > li:nth-c
 section:has(picture) > ul > li:first-child, section:has(picture) > ul > li:nth-child(4) {
     font-weight: bold;
 }
+
+/* Especificidad: 001 */
+table {
+    border-collapse: collapse;
+}
+
+/* Especificidad: 001, 001 */
+th, td {
+    border: 0.1em solid var(--color-principal);
+    padding: 0.3em 0.6em;
+}
+
+/* Especificidad: 011 */
+th[scope="col"] {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 011 */
+th[scope="row"] {
+    text-align: left;
+}

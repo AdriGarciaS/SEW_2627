@@ -9,6 +9,52 @@
 /*  Grupo de laboratorio: L-6            */
 /* ***************************************/
 
+/* Especificidad: 001 */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "cabecera"
+        "migas"
+        "contenido"
+        "pie";
+    grid-template-rows: auto auto 1fr auto;
+}
+
+/* Especificidad: 001 */
+header {
+    grid-area: cabecera;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+/* Especificidad: 003 */
+body > header + nav {
+    grid-area: migas;
+}
+
+/* Especificidad: 001 */
+main {
+    grid-area: contenido;
+}
+
+/* Especificidad: 001 */
+footer {
+    grid-area: pie;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+/* Especificidad: 002 */
+footer > p {
+    margin: 0;
+}
+
 /* Especificidad: 002 */
 section:has(picture) {
     display: flex;
@@ -51,4 +97,80 @@ section:has(article + article) {
 /* Especificidad: 004 */
 section:has(article + article) > h3 {
     grid-column: 1 / -1;
+}
+
+/* Especificidad: 001 */
+form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    max-width: 100%;
+}
+
+/* Especificidad: 002 */
+form > fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Especificidad: 003, 003 */
+form > fieldset > label, form > fieldset > fieldset {
+    margin-top: 1em;
+}
+
+/* Especificidad: 003 */
+form > fieldset > fieldset {
+    border: none;
+    padding: 0;
+}
+
+/* Especificidad: 002 */
+form > button {
+    align-self: center;
+    margin-top: 1em;
+}
+
+/* Tabletas */
+@media (max-width: 1024px) {
+    /* Especificidad: 001 */
+    header {
+        flex-direction: column;
+    }
+
+    /* Especificidad: 002 */
+    header > nav {
+        display: flex;
+        justify-content: space-around;
+        align-self: stretch;
+    }
+
+    /* Especificidad: 003 */
+    body > header + nav {
+        display: none;
+    }
+
+    /* Especificidad: 003 */
+    section:has(article + article) {
+        grid-template-columns: repeat(2, 1fr); /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
+    }
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+    /* Especificidad: 002 */
+    header > nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Especificidad: 003 */
+    section:has(article + article) {
+        grid-template-columns: 1fr; /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(2, 1fr) */
+    }
+
+    /* Especificidad: 001, 001 */
+    video, audio {
+        max-width: 100%;
+    }
 }

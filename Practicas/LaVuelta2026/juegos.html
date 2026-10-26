@@ -9,7 +9,7 @@
     <meta name="author" content="Adriana Garcia Suarez" />
     <meta name="description" content="Documento de juegos del proyecto LaVuelta2026" />
    
-    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
@@ -53,42 +53,34 @@
         <form>
             <fieldset>
                 <legend>Etapa 16: Cortegana a La Rábida-Palos de la Frontera</legend>
-                <p>
-                    <label for="numeroEtapa">1. ¿Qué número de etapa de La Vuelta 2026 se describe en la información de la etapa?</label>
-                    <input type="number" id="numeroEtapa" min="1" max="21" />
-                </p>
+                <label for="numeroEtapa">1. ¿Qué número de etapa de La Vuelta 2026 se describe en la información de la etapa?</label>
+                <input type="number" id="numeroEtapa" min="1" max="21" />
 
-                <p>
-                    <label for="fechaEtapa">2. ¿En qué fecha se disputa la etapa?</label>
-                    <input type="date" id="fechaEtapa" min="2026-08-22" max="2026-09-13" required />
-                </p>
+                <label for="fechaEtapa">2. ¿En qué fecha se disputa la etapa?</label>
+                <input type="date" id="fechaEtapa" min="2026-08-22" max="2026-09-13" required />
 
-                <p>
-                    <label for="salidaEtapa">3. ¿Cuál es la ciudad de salida de la etapa?</label>
-                    <select id="salidaEtapa" required>
-                        <option value="">Seleccione una opción</option>
-                        <option>Monaco</option>
-                        <option>Andorra la Vella</option>
-                        <option>Cartagena</option>
-                        <option>Cortegana</option>
-                        <option>Jaén</option>
-                    </select>
-                </p>
+                <label for="salidaEtapa">3. ¿Cuál es la ciudad de salida de la etapa?</label>
+                <select id="salidaEtapa" required>
+                    <option value="">Seleccione una opción</option>
+                    <option>Monaco</option>
+                    <option>Andorra la Vella</option>
+                    <option>Cartagena</option>
+                    <option>Cortegana</option>
+                    <option>Jaén</option>
+                </select>
 
-                <p>
-                    <label for="llegadaEtapa">4. ¿Cuál es la ciudad de llegada de la etapa?</label>
-                    <select id="llegadaEtapa" required>
-                        <option value="">Seleccione una opción</option>
-                        <option>Manosque</option>
-                        <option>Calar Alto</option>
-                        <option>La Rábida. Palos de la Frontera</option>
-                        <option>Córdoba</option>
-                        <option>Granada</option>
-                    </select>
-                </p>
+                <label for="llegadaEtapa">4. ¿Cuál es la ciudad de llegada de la etapa?</label>
+                <select id="llegadaEtapa" required>
+                    <option value="">Seleccione una opción</option>
+                    <option>Manosque</option>
+                    <option>Calar Alto</option>
+                    <option>La Rábida. Palos de la Frontera</option>
+                    <option>Córdoba</option>
+                    <option>Granada</option>
+                </select>
 
-                <p>
-                    5. ¿De qué tipo es la etapa?
+                <fieldset>
+                    <legend>5. ¿De qué tipo es la etapa?</legend>
                     <input type="radio" id="tipoLlana" name="tipoEtapa" required />
                     <label for="tipoLlana">Llana</label>
                     <input type="radio" id="tipoMediaMontana" name="tipoEtapa" />
@@ -99,10 +91,10 @@
                     <label for="tipoCri">Contrarreloj individual</label>
                     <input type="radio" id="tipoCre" name="tipoEtapa" />
                     <label for="tipoCre">Contrarreloj por equipos</label>
-                </p>
+                </fieldset>
 
-                <p>
-                    6. ¿Qué hitos están presentes en la etapa? (puedes marcar varios)
+                <fieldset>
+                    <legend>6. ¿Qué hitos están presentes en la etapa? (puedes marcar varios)</legend>
                     <input type="checkbox" id="hitoPuerto" />
                     <label for="hitoPuerto">Puerto de montaña</label>
                     <input type="checkbox" id="hitoPuertoEspecial" />
@@ -113,38 +105,25 @@
                     <label for="hitoSprintBonificado">Sprint bonificado</label>
                     <input type="checkbox" id="hitoNinguno" />
                     <label for="hitoNinguno">Sin hitos</label>
-                </p>
+                </fieldset>
 
-                <p>
-                    <label for="durezaEtapa">7. Valora la dureza de la etapa (1 = muy fácil, 10 = muy dura):</label>
-                    <input type="range" id="durezaEtapa" min="1" max="10" step="1" />
-                </p>
+                <label for="durezaEtapa">7. Valora la dureza de la etapa (1 = muy fácil, 10 = muy dura):</label>
+                <input type="range" id="durezaEtapa" min="1" max="10" step="1" />
 
-                <p>
-                    <label for="longitudEtapa">8. ¿Cuál es la longitud de la etapa en kilómetros?</label>
-                    <input type="number" id="longitudEtapa" min="0" step="0.1" required />
-                </p>
+                <label for="longitudEtapa">8. ¿Cuál es la longitud de la etapa en kilómetros?</label>
+                <input type="number" id="longitudEtapa" min="0" step="0.1" required />
 
-                <p>
-                    <label for="desnivelEtapa">9. ¿Cuál es el desnivel acumulado de la etapa en metros?</label>
-                    <input type="number" id="desnivelEtapa" min="0" step="1" required />
-                </p>
+                <label for="desnivelEtapa">9. ¿Cuál es el desnivel acumulado de la etapa en metros?</label>
+                <input type="number" id="desnivelEtapa" min="0" step="1" required />
 
-                <p>
-                    <label for="descripcionEtapa">10. Describe brevemente la etapa:</label>
-                    <textarea id="descripcionEtapa" rows="5" cols="50" maxlength="500" placeholder="Recorrido, dificultad, paisaje..."></textarea>
-                </p>
+                <label for="descripcionEtapa">10. Describe brevemente la etapa:</label>
+                <textarea id="descripcionEtapa" rows="5" cols="50" maxlength="500" placeholder="Recorrido, dificultad, paisaje..."></textarea>
 
-                <p>
-                    <label for="nombreParticipante">Nombre del participante:</label>
-                    <input type="text" id="nombreParticipante" maxlength="50" placeholder="Nombre y apellidos" required />
-                </p>
+                <label for="nombreParticipante">Nombre del participante:</label>
+                <input type="text" id="nombreParticipante" maxlength="50" placeholder="Nombre y apellidos" required />
             </fieldset>
 
-            <p>
-                <button type="submit">Enviar respuestas</button>
-            </p>
-        
+            <button type="submit">Enviar respuestas</button>
         </form>
     </main>
 
